@@ -11,7 +11,7 @@ const Header = (props: Props) => {
         setTheme(theme === 'dark' ? 'light' : 'dark');
     }
     return (
-        <header>
+        <header className={styles.header}>
             <nav
                 className="navbar navbar-dark bg-dark"
                 aria-label="First navbar example"
@@ -23,7 +23,7 @@ const Header = (props: Props) => {
                             <strong>Album</strong>
                         </a>
                         <button
-                            className="navbar-toggler"
+                            className="navbar-toggler collapsed"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarsExample01"
@@ -34,7 +34,6 @@ const Header = (props: Props) => {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                     </div>
-
 
                     <div className="container">
                         <div className="collapse navbar-collapse" id="navbarsExample01">
@@ -56,7 +55,6 @@ const Header = (props: Props) => {
                     </div>
                 </div>
             </nav>
-
         </header>
     )
 }
