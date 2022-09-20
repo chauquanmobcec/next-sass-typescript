@@ -23,7 +23,7 @@ const Header = (props: Props) => {
                             <strong>Album</strong>
                         </a>
                         <button
-                            className="navbar-toggler collapsed"
+                            className="navbar-toggler"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarsExample01"
@@ -36,7 +36,7 @@ const Header = (props: Props) => {
                     </div>
 
                     <div className="container">
-                        <div className="collapse navbar-collapse" id="navbarsExample01">
+                        <div className={`navbar-collapse ${styles.transition_5}`} id="navbarsExample01">
                             <div className="row">
                                 <div className="col-sm-8 col-md-7 py-4">
                                     <h4 className="text-white">About</h4>
