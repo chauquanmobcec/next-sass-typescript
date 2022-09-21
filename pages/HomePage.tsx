@@ -46,6 +46,7 @@ const HomePage = ({data}: any) => {
             </p>
           </div>
         </section>
+        
         <section className={`jumbotron text-center ${styles.jumbotron}`} >
           <div className="container">
             <h1 className="jumbotron-heading">Album example</h1>
@@ -83,6 +84,7 @@ const HomePage = ({data}: any) => {
                     </div>
                   </div>
                 </div>
+                
               ))}
             </div>
           </div>

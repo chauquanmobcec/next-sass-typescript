@@ -19,7 +19,7 @@ export default function FileNotFound(props: IFileNotFoundProps) {
 
                                 <div className={styles.contant_box_404}>
                                     <h3 className="h2">
-                                        Look like you're lost
+                                        Look like you&apos;re lost
                                     </h3>
 
                                     <p>the page you are looking for not avaible!</p>
