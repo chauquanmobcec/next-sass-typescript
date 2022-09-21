@@ -4,13 +4,13 @@ import Header from './Header'
 
 type Props = {}
 
-const Layout = (props:any) => {
-    const children = props.children
+const Layout = (props: any) => {
+  const children = props.children
   return (
     <>
-    <Header/>
-    {children}
-    <Footer/>
+      <Header />
+      {children}
+      <Footer />
     </>
   )
 }

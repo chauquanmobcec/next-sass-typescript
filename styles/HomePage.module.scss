@@ -1,6 +1,7 @@
-.main{
+.main {
   // height: 2000px;    
 }
+
 .container {
   padding: 0 2rem;
 }
@@ -18,7 +19,8 @@
   margin-bottom: 0;
   background-color: #fff;
 }
-.red{}
+
+.red {}
 
 @media (min-width: 768px) {
   .jumbotronn {
@@ -37,6 +39,17 @@
 
 .jumbotron .container {
   max-width: 40rem;
+}
+
+.ellipsis {
+  display: -webkit-box;
+  max-height: 5.2rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 3;
+  line-height: 1.6rem;
 }
 
 .footer {

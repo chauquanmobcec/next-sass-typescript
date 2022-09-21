@@ -4,7 +4,7 @@ import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
 import { useEffect } from 'react';
-import Layout from './components/Layout';
+import Layout from '../components/Layout';
 import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }: AppProps) {

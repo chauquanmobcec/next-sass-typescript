@@ -1,6 +1,7 @@
 import { useTheme } from 'next-themes';
+import Link from 'next/link';
 import React from 'react'
-import styles from '../../styles/Header.module.scss';
+import styles from '../styles/Header.module.scss';
 
 
 type Props = {}
@@ -18,10 +19,10 @@ const Header = (props: Props) => {
             >
                 <div className="container-fluid">
                     <div className="container d-flex justify-content-between">
-                        <a href="#" className="navbar-brand d-flex align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-                            <strong>Album</strong>
-                        </a>
+                        <Link href="/" >
+                            <a className="navbar-brand d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                                <strong className='px-2'>Album</strong></a>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -36,7 +37,7 @@ const Header = (props: Props) => {
                     </div>
 
                     <div className="container">
-                        <div className={`collapse navbar-collapse ${styles.transition_5}`}  id="navbarsExample01">
+                        <div className={`collapse navbar-collapse ${styles.transition_5}`} id="navbarsExample01">
                             <div className="row">
                                 <div className="col-sm-8 col-md-7 py-4">
                                     <h4 className="text-white">About</h4>

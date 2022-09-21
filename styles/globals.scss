@@ -7,6 +7,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: black;
     background-color: whitesmoke;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
   }
 
 [data-theme='dark'], [data-theme='dark'] body{
@@ -14,9 +18,6 @@ body {
   background-color: black;  
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+
 
 

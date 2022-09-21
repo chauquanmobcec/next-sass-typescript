@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/HomePage.module.scss';
-import Header from './components/Header';
+import Header from '../components/Header';
 import HomePage from './HomePage';
 
 const Home: NextPage = () => {
